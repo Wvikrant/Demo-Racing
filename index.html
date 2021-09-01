@@ -13,25 +13,26 @@
 <script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-database.js"></script>
 <!-- TODO: Add SDKs for Firebase products that you want to use
      https://firebase.google.com/docs/web/setup#available-libraries -->
+<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.0.1/firebase-app.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
 
-// Import the functions you need from the SDKs you need
-import { initializeApp } from "firebase/app";
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
+  // Your web app's Firebase configuration
+  const firebaseConfig = {
+    apiKey: "AIzaSyCvh5Y4Nzwdr8utq4gAe4ebRjIY-r0s9Ww",
+    authDomain: "testcar-fa493.firebaseapp.com",
+    databaseURL: "https://testcar-fa493-default-rtdb.firebaseio.com",
+    projectId: "testcar-fa493",
+    storageBucket: "testcar-fa493.appspot.com",
+    messagingSenderId: "508032724776",
+    appId: "1:508032724776:web:fde863b708292dc3bf6a1d"
+  };
 
-// Your web app's Firebase configuration
-const firebaseConfig = {
-  apiKey: "AIzaSyCvh5Y4Nzwdr8utq4gAe4ebRjIY-r0s9Ww",
-  authDomain: "testcar-fa493.firebaseapp.com",
-  databaseURL: "https://testcar-fa493-default-rtdb.firebaseio.com",
-  projectId: "testcar-fa493",
-  storageBucket: "testcar-fa493.appspot.com",
-  messagingSenderId: "508032724776",
-  appId: "1:508032724776:web:fde863b708292dc3bf6a1d"
-};
-
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+</script>
 <!--database code ends here-->    
     
     
